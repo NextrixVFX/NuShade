@@ -1,0 +1,8 @@
+uniform vec3 color;
+
+void main()
+{
+    float x = 1.0;
+    color = vec3(x, 0.5, 1.0);
+    return color;
+}
